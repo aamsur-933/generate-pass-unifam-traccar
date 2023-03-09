@@ -15,7 +15,7 @@ func main() {
         // random logic
         // currentTime = currentTime.AddDate(0, 0, 99)
 
-	r := GetMD5Hash(currentTime.Format("20170709"))
+	r := GetMD5Hash(currentTime.Format("20060102"))
 	fmt.Println(r[0:9])
 }
 
