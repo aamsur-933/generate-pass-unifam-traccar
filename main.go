@@ -16,7 +16,7 @@ func main() {
         // currentTime = currentTime.AddDate(0, 0, 99)
 
 	r := GetMD5Hash(currentTime.Format("20060102"))
-	fmt.Println(r[0:9])
+	fmt.Printf("Password : %s \n", r[0:10])
 }
 
 func GetMD5Hash(text string) string {
